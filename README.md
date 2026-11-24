@@ -49,7 +49,7 @@ There are no firmware or tool files here. Each guide links to the official downl
 
 - Ubuntu Touch port for this tablet: [Rúben Carneiro and the UBports community](https://devices.ubuntu-touch.io/device/amar-row-wifi/)
 - Unofficial LineageOS builds for `amar_row_lte`: [Bakoubak/lineage_releases](https://github.com/Bakoubak/lineage_releases/releases)
-- The LMSA tip for flashing stock firmware: osnard, in [issue #1](https://github.com/joan-bl/lenovo-m10hd-ubuntu-touch-installer/issues/1)
+- The LMSA tip for flashing stock firmware: osnard, in [issue #1](https://github.com/joan-bl/lenovo-tab-m10-hd-x306f/issues/1)
 
 ---
 
