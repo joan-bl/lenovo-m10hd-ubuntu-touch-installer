@@ -1,7 +1,9 @@
 # Complete Guide: Installing Ubuntu Touch on Lenovo Tab M10 HD (TB-X306F)
 Disclaimer
 
-This port is for Lenovo Tab M10 HD (X306F) 4GB RAM 64 GB ROM and Lenovo Tab M10 HD (X306X). The 2GB version is not supported. This guide and procedure was done with the 2GB model, thus it didn't work.
+This port is for Lenovo Tab M10 HD (X306F) 4GB RAM 64 GB ROM and Lenovo Tab M10 HD (X306X). **The 2GB version is not supported.** I followed this procedure on a 2 GB unit and it ended in a boot loop.
+
+> **Have the 2 GB model, or is your tablet stuck in a boot loop?** Read the [test report](TEST-REPORT-2GB.md) first. It explains why Ubuntu Touch fails on the 2 GB model, how I recovered the tablet from Windows with mtkclient, and how I installed LineageOS 21 on it, which works.
 
 ## Table of Contents
 1. [Introduction and Requirements](#introduction-and-requirements)
