@@ -88,4 +88,4 @@ According to the UBports page, Wi-Fi, Bluetooth, the camera, audio, rotation, ch
 - UBports device page: https://devices.ubuntu-touch.io/device/amar-row-wifi/
 - Device source: https://gitlab.com/ubports/porting/community-ports/android11/lenovo-tab-m10-hd/lenovo-m10-hd
 - UBports forum: https://forums.ubports.com/category/121/lenovo-tab-m10-hd-2nd-gen
-- Issue #1 (LMSA tip): https://github.com/joan-bl/lenovo-m10hd-ubuntu-touch-installer/issues/1
+- Issue #1 (LMSA tip): https://github.com/joan-bl/lenovo-tab-m10-hd-x306f/issues/1
