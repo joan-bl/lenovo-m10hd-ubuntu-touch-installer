@@ -1,5 +1,7 @@
 # Ubuntu Touch on the 2 GB Lenovo Tab M10 HD (TB-X306F): failed install and full recovery
 
+[Back to README](../README.md) · [Ubuntu Touch guide for the 4 GB model](ubuntu-touch-4gb.md)
+
 **Status (November 2026):** Ubuntu Touch does not work on the 2 GB model. My attempt left the tablet in a boot loop, but it is **fully recovered** to stock Android 10, and **LineageOS 21 now runs on it**. This report covers what broke, the exact steps that unbricked it from Windows and how I installed LineageOS afterwards.
 
 **If you only read one thing:** check your RAM first. If your TB-X306F has 2 GB, do not run the UBports Installer on it. If you already did and it is stuck in a boot loop, skip to [How I recovered it](#how-i-recovered-it).
@@ -152,15 +154,6 @@ Set-ItemProperty 'HKLM:\SYSTEM\CurrentControlSet\Enum\USB\VID_0E8D&PID_201C\<ser
 
 This sets the standard Android USB interface GUID, so fastboot can find the device.
 
-## Suggested changes to the main guide
-
-- Put the 2 GB warning at the very top and link this report.
-- Add a "Recovering from a boot loop" section based on the steps above (mtkclient + UsbDk).
-- The scatter file for this tablet is `MT6765_Android_scatter.txt`, not `MT6762_Android_scatter.txt`.
-- Run `adb` and `fastboot` directly from the extracted Platform Tools folder instead of adding them to `PATH`.
-- Follow the order on the UBports device page: Android 11 stock, then bootloader unlock, then the installer. The guide currently unlocks the bootloader first.
-- Recommend Termux from F-Droid or its GitHub releases. The Play Store build is outdated.
-- Link the official firmware package from the UBports device page: `https://github.com/rubencarneiro/amar_row_wifi/releases/download/1.0/Firmware.tar.xz` (Android 11, 4 GB model only).
 
 ## Sources
 
